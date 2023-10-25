@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".individual">
+
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:onClick="goBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/list" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bireysel"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="528dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/blue" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="86dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:srcCompat="@drawable/gamer_mini" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="83dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="84dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton13"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:srcCompat="@drawable/woman_mini" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:srcCompat="@drawable/man_mini" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dialog_stick_white"
+        android:text="Deniz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="172dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_stick_white"
+        android:text="Ev Arkadaşlarım"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dialog_stick_white"
+        android:text="Helin"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="82dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/dialog_stick_white"
+        android:text="furkan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton13" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="@+id/imageButton5"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton13"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton13"
+        app:layout_constraintStart_toStartOf="@+id/imageButton13"
+        app:srcCompat="@android:drawable/presence_busy" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="@+id/imageButton6"
+        app:srcCompat="@android:drawable/presence_away" />
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="426dp"
+        android:layout_height="534dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:background="#00FBFBFB"
+                app:srcCompat="@drawable/atm_card" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dijital Kartım"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="24sp"
+                app:autoSizeTextType="none" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/pp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profilim"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/scholarship" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burslarım"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="169dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/share_flat" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ev Arkadaşı Bul"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/coming_soon" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

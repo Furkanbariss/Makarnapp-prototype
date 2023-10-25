@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Makarnapp">
+
+    <Button
+        android:id="@+id/Bireysel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/white_button"
+        android:text="Bireysel"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ogrenci_evi"></Button>
+
+    <Button
+        android:id="@+id/Ogrenci_evi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/white_button"
+        android:text="Öğrenci Evi"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/Bireysel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"></Button>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="327dp"
+        app:layout_constraintBottom_toTopOf="@+id/Ogrenci_evi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eller" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:srcCompat="@drawable/kartlar" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="516dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blue" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="289dp"
+        android:layout_height="248dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/makarnaplogo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

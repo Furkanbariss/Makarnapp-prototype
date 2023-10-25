@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bej"
+    tools:context=".Chat"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="55dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:onClick="goBack"
+        app:layout_constraintBottom_toTopOf="@+id/imageView26"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="173dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/list" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="57dp"
+        android:text="Mesajlaşma"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="294dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/scholarship_stick"
+        android:ems="10"
+        android:inputType="text"
+        android:text="    Mesaj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="44dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:srcCompat="@drawable/paper_plane" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/message_stick_green"
+        android:text="Arkadaşlar eve geliyorum."
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="283dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/message_stick_green"
+        android:text="Eğer lazımza paraları havuza yollayın 😁"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/message_stick_green"
+        android:text="Bir şeyler lazım mı?"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/message_stick_pink"
+        android:text="Bekle hemen yolluyorum havuza !"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/message_stick_pink"
+        android:text="Bana bir paket makarna alabilir misin? 😋 "
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="1dp"
+        android:text="Deniz"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="265dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toStartOf="@+id/textView28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:srcCompat="@drawable/gamer_mini" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@drawable/man_mini" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Furkan"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="330dp"
+        android:text="Helin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/message_stick_blue"
+        android:text="Benim ihtiyacaım yok, teşekkürler."
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toStartOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="280dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/woman_mini" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
